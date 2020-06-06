@@ -24,7 +24,7 @@ inquirer.prompt([
 
     var badgeUrl = ''
     if(answers.badges === 'Lisence') {
-      badgeUrl = '![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/tmccar5/opensource/25)'
+      badgeUrl = '[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)'
     }
 
 
