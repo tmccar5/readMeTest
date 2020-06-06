@@ -2,7 +2,8 @@
 # Title Projectt
 # Description descriptionnnnn
 
-[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/tmccar5/opensource/25)
 
 
         asdfasd
