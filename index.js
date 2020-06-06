@@ -31,7 +31,7 @@ inquirer.prompt([
       var readMeString = `
 # Title ${answers.first}
 # Description ${answers.second}
-        Badge!! ${badgeUrl}
+${badgeUrl}
       `
 
       
