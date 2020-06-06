@@ -13,18 +13,25 @@ inquirer.prompt([
        message: 'What is your project called ?' 
     },
     {
-        type:'input',
-        name: 'second',
-        message: 'Please give a brief Description!' 
+        type:'list',
+        name: 'badges',
+        message: 'which badge do u want ?',
+        choices: ['Lisence', 'Code Coverage'] 
      }
   ])
   .then(function(answers)  {
       console.log('This is frist answer!!!', answers); 
 
+    var badgeUrl = ''
+    if(answers.badges === 'Lisence') {
+      badgeUrl = '![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/tmccar5/opensource/25)'
+    }
+
+
       var readMeString = `
 # Title ${answers.first}
 # Description ${answers.second}
-        asdfasd
+        Badge!! ${badgeUrl}
       `
 
       
